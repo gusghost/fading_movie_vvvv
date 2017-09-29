@@ -1,0 +1,5 @@
+ctrl+I インスペクタ起動
+ctrl+T 選択したウィンドウを常に全面表示
+
+rendererノードを選んでALT+1or2or3
+実行画面(renderer)の表示方法を変える

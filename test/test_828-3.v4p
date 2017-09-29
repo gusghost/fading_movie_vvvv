@@ -1,0 +1,55 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
+   <PATCH nodename="X:\library\document\hallowweeeeeeeeeeen_ohtsugaoka\test\test_828-3.v4p">
+   <NODE systemname="test_828-2" filename="test_828-2.v4p" nodename="test_828-2.v4p" componentmode="Hidden" id="0">
+   <BOUNDS type="Node" left="1500" top="1500" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="-254" top="-464" width="3508" height="3928">
+   </BOUNDS>
+   <BOUNDS type="Window" left="-1" top="-1" width="3508" height="3928">
+   </BOUNDS>
+   </NODE>
+   <NODE id="1" systemname="IOBox (Node)" componentmode="InABox">
+   <PIN pinname="Descriptive Name" slicecount="1" values="Transform">
+   </PIN>
+   <BOUNDS type="Box" left="1500" top="500" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1500" top="500" width="750" height="240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="1" srcpinname="Output Node" dstnodeid="0" dstpinname="Transform">
+   </LINK>
+   <NODE id="2" systemname="IOBox (Color)" componentmode="InABox">
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Color A|">
+   </PIN>
+   <BOUNDS type="Box" left="2400" top="500" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2400" top="500" width="750" height="240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="2" srcpinname="Color Output" dstnodeid="0" dstpinname="Color A">
+   </LINK>
+   <NODE id="3" systemname="IOBox (Color)" componentmode="InABox">
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Color B|">
+   </PIN>
+   <BOUNDS type="Box" left="3300" top="500" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="3300" top="500" width="750" height="240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="3" srcpinname="Color Output" dstnodeid="0" dstpinname="Color B">
+   </LINK>
+   <NODE id="4" systemname="IOBox (Node)" componentmode="InABox">
+   <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
+   </PIN>
+   <BOUNDS type="Box" left="1500" top="2000" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1500" top="2000" width="750" height="240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="4" dstpinname="Input Node">
+   </LINK>
+   <BOUNDS type="Window" left="-1" top="-1" width="3000" height="3000">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="35.0.0">
+   </PACK>
+   </PATCH>
